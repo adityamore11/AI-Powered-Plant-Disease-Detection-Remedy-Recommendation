@@ -1,0 +1,16 @@
+dataset/*
+!dataset/.gitkeep
+models/*
+!models/.gitkeep
+results/*
+!results/.gitkeep
+__pycache__/
+*.py[cod]
+*.h5
+*.keras
+.env
+venv/
+.venv/
+node_modules/
+.DS_Store
+.pytest_cache/

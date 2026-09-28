@@ -1,0 +1,30 @@
+{
+  "Tomato___Early_blight": {
+    "plant": "Tomato", "disease": "Early Blight", "description": "A common fungal leaf disease that can reduce plant vigor.",
+    "symptoms": ["Brown spots that may form concentric rings", "Yellowing around leaf spots", "Lower leaves often show symptoms first"],
+    "recommended_actions": ["Remove and dispose of visibly affected plant material", "Improve airflow and avoid wetting foliage when watering", "Use an appropriate registered treatment according to its label and local agricultural guidance"],
+    "prevention": ["Rotate crops where practical", "Use clean tools and disease-free planting material", "Monitor plants regularly"],
+    "precautions": ["Do not apply chemicals contrary to product labels", "Consult a local agricultural expert for a confirmed diagnosis"], "severity": "Moderate", "disclaimer": "This is AI-assisted screening information, not a professional diagnosis."
+  },
+  "Potato___Early_blight": {
+    "plant": "Potato", "disease": "Early Blight", "description": "A fungal disease that commonly affects older potato foliage and may reduce yield when severe.",
+    "symptoms": ["Dark brown leaf spots, often with concentric rings", "Yellowing around spots and gradual drying of affected leaves", "Symptoms often begin on older, lower leaves and can spread upward"],
+    "recommended_actions": ["Remove and dispose of heavily affected foliage where practical", "Avoid overhead watering and allow foliage to dry", "Ask a local agricultural expert whether a locally registered treatment is appropriate"],
+    "prevention": ["Rotate potatoes with non-host crops and avoid planting potatoes in the same area repeatedly", "Use healthy seed potatoes and remove volunteer potato plants and crop debris", "Maintain suitable spacing and monitor lower leaves regularly"],
+    "precautions": ["Do not apply chemicals contrary to product labels", "Confirm the diagnosis with a local agricultural expert, as other problems can look similar"], "severity": "Moderate", "disclaimer": "This is AI-assisted screening information, not a professional diagnosis."
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "plant": "Tomato", "disease": "Septoria Leaf Spot", "description": "A fungal leaf disease that often begins on lower, older tomato leaves. Visual screening can confuse it with other leaf spot diseases.",
+    "symptoms": ["Small, round, dark spots on lower leaves", "Spots may develop pale gray or tan centers with tiny dark specks", "Affected leaves may yellow, dry, and fall prematurely"],
+    "recommended_actions": ["Remove spotted lower leaves when practical, without removing more than one-third of the plant's foliage", "Water at the base of the plant and avoid handling wet foliage", "Ask a local agricultural expert to confirm the cause before considering treatment"],
+    "prevention": ["Stake or trellis plants and provide good spacing for airflow", "Mulch beneath plants to reduce soil and debris splashing onto lower leaves", "Rotate tomatoes and peppers away from the same location for two years where practical", "Remove diseased plant debris and do not save seed from affected plants"],
+    "precautions": ["Other tomato leaf spot diseases can look similar; this AI result is not a confirmed diagnosis", "Use any pesticide only if locally registered for tomatoes and strictly according to its label"], "severity": "Moderate", "disclaimer": "AI-assisted screening information, not a professional diagnosis.",
+    "sources": [
+      {"label": "University of Minnesota Extension: Tomato leaf spot diseases", "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/tomato-leaf-spot-diseases"},
+      {"label": "Penn State Extension: Tomato diseases and disorders in the home garden", "url": "https://extension.psu.edu/tomato-diseases-and-disorders-in-the-home-garden"}
+    ]
+  },
+  "__template__": {
+    "plant": "Plant name", "disease": "Disease name", "description": "Add locally reviewed information.", "symptoms": [], "recommended_actions": ["Use local agricultural guidance."], "prevention": [], "precautions": [], "severity": "Unknown", "disclaimer": "Do not add pesticide doses without verified local guidance."
+  }
+}
